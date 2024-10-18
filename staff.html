@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Certificate Programmes - Division of Flexible Learning</title>
+  <title>Staff - Division of Flexible Learning</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,53 +28,13 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <style>
-    /* Card Layout for Certificate Programs */
-    .certificate-box {
-      border: 1px solid #e0e0e0;
-      padding: 20px;
-      border-radius: 10px;
-      background-color: #fff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin-bottom: 20px;
-      display: flex;
-      align-items: center;
-      transition: box-shadow 0.3s ease;
-    }
-
-    .certificate-box:hover {
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    }
-
-    .certificate-box img {
+    /* Ensure images are circular and of the same size */
+    .member img {
       width: 150px;
       height: 150px;
       object-fit: cover;
-      margin-right: 20px;
-      border-radius: 5px;
-    }
-
-    .certificate-box h4 {
-      font-size: 20px;
-      margin-bottom: 10px;
-      color: #333;
-    }
-
-    .certificate-box p {
-      margin-bottom: 10px;
-      color: #666;
-    }
-
-    .certificate-box a {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    .certificate-box a:hover {
-      text-decoration: underline;
-    }
-
-    .certificate-content {
-      flex: 1;
+      border-radius: 50%;
+      margin-bottom: 15px;
     }
   </style>
 </head>
@@ -91,6 +51,7 @@
       </div>
       <div class="d-flex align-items-center justify-content-between w-100">
         <a href="index.html"><img src="assets/img/logo-png.png" class="dfl-logo"></a>
+
         <nav id="navbar" class="navbar">
           <ul>
             <li><a class="nav-link scrollto" href="index.html">Home</a></li>
@@ -98,7 +59,9 @@
               <ul>
                 <li><a href="vision-and-mission.html">Vision and Mission</a></li>
                 <li><a href="leadership.html">Leadership</a></li>
-                <li><a href="/director-portfolio">Director (E-Learning)</a></li>
+                <li><a href="director.html">Director (E-Learning)</a></li>
+                <li><a href="staff.html">Staff</a></li>
+
                 <li class="dropdown">
                   <a href="#"><span>Accreditations</span> <i class="bi bi-chevron-right"></i></a>
                   <ul>
@@ -117,9 +80,41 @@
               <ul>
                 <li><a href="#">Prospectus 2023-2024</a></li>
                 <li><a href="#">Admission Process</a></li>
-                <li><a href="certificate_programmes.html">Certificate Programs</a></li>
+                <li><a href="#">Certificate Programs</a></li>
+                <li><a href="#">Diploma Programs</a></li>
+                <li><a href="#">Degree Programs</a></li>
+                <li><a href="#">FAQ</a></li>
               </ul>
             </li>
+            <li class="dropdown"><a href="#"><span>Statutory Body</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#"><span>UGC Approvals</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">UGC Approval 2023-24</a></li>
+                    <li><a href="#">UGC Approval 2022-23</a></li>
+                  </ul>
+                </li>
+                <li><a href="/assets/docs/UGC IIITH Application Form.pdf" target="_blank">Application to UGC DEB <br>for Online programmes</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#"><span>CIQA</span><i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="/about-ciqa">About CIQA</a></li>
+                <li><a href="/ciqa-objectives">CIQA Objectives</a></li>
+                <li><a href="/handbooks">Handbooks</a></li>
+                <li class="dropdown"><a href="#"><span>Internal Audit Reports</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Internal Quality <br>Assurance 2023-2024</a></li>
+                    <li><a href="#">Internal Quality <br>Assurance 2022-2023</a></li>
+                  </ul>
+                </li>
+                <li><a href="/academic-processes">Academic Processes</a></li>
+                <li><a href="/assets/pdfs/strategy-plan.pdf">Strategy Plan</a></li>
+                <li><a href="/assets/pdfs/Staff-Details.pdf">Staff Details</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="contactUs.html">Contact Us</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -133,77 +128,38 @@
     <section class="breadcrumbs">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Certificate Programmes</h2>
+          <h2>Staff</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Certificate Programmes</li>
+            <li><a href="index.html">About Us</a></li>
+            <li>Staff</li>
           </ol>
         </div>
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Certificate Programmes Section ======= -->
-    <section class="certificate-programmes section-bg">
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
       <div class="container">
         <div class="section-title">
-          <h2>Certificate Programmes</h2>
+          <h2>Staff</h2>
         </div>
 
-        <!-- Certificate Programme 1 -->
-        <div class="certificate-box">
-          <img src="assets\img\certificate_p\image_1.png" alt="AI and ML Certificate">
-          <div class="certificate-content">
-            <h4><a href="https://talentsprint.com/course/emasters-in-computer-science-ai-machine-learning">eMasters in Computer Science with specialization in Artificial Intelligence and Machine Learning</a></h4>
-            <p>1 Batch | This program is designed for working professionals seeking to enhance their expertise in AI and ML while managing professional commitments.</p>
-          </div>
-        </div>
-
-        <!-- Certificate Programme 2 -->
-        <div class="certificate-box">
-          <img src="assets\img\certificate_p\image_2.png" alt="Machine Learning Foundation">
-          <div class="certificate-content">
-            <h4><a href="https://ihub-data.ai/archives/courses/foundations-of-modern-machine-learning-august-2024/">Foundations of Machine Learning (iHuB)</a></h4>
-            <p>This course provides a strong foundation in machine learning principles for professionals looking to deepen their technical knowledge.</p>
-          </div>
-        </div>
-
-        <!-- Certificate Programme 3 -->
-        <div class="certificate-box">
-          <img src="assets\img\certificate_p\image_3.png" alt="PG Level AI and ML">
-          <div class="certificate-content">
-            <h4><a href="https://talentsprint.com/course/ai-machine-learning-iiit-hyderabad">AI and ML (PG Level Certificate Programme)</a></h4>
-            <p>This PG-level certificate programme offers a comprehensive curriculum focused on AI and Machine Learning.</p>
-          </div>
-        </div>
-
-        <!-- Certificate Programme 4 -->
-        <div class="certificate-box">
-          <img src="assets\img\certificate_p\image_4.png" alt="Blockchain Certificate">
-          <div class="certificate-content">
-            <h4><a href="https://talentsprint.com/course/blockchain-iiit-hyderabad">Blockchain and Distributed Ledger Technologies</a></h4>
-            <p>A detailed course on Blockchain technology and its various applications for professionals interested in developing Blockchain solutions.</p>
-          </div>
-        </div>
-
-        <!-- Certificate Programme 5 -->
-        <div class="certificate-box">
-          <img src="assets\img\certificate_p\image_5.png" alt="ML for Chemistry and Drug Design">
-          <div class="certificate-content">
-            <h4><a href="https://ihub-data.ai/archives/courses/machine-learning-for-chemistry-and-drug-design/">Machine Learning for Chemistry and Drug Design</a></h4>
-            <p>This course offers insights into applying machine learning techniques in chemistry and pharmaceutical research.</p>
-          </div>
-        </div>
-
-        <!-- Certificate Programme 6 -->
-        <div class="certificate-box">
-          <img src="assets\img\certificate_p\image_6.png" alt="AI for Healthcare">
-          <div class="certificate-content">
-            <h4><a href="https://ihub-data.ai/archives/courses/ai-for-healthcare/">AI for Medical Professionals</a></h4>
-            <p>This course provides healthcare professionals with the tools and knowledge to integrate AI into medical practice.</p>
+        <div class="row">
+          <!-- Prof. Venkatesh Choppella -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets\img\team\image_8.jpeg" alt="Mr. K. Sudheendra">
+              <h4>Mr. K. Sudheendra</h4>
+              <span>Division Executive, DFL</span>
+              <p><strong>Email:</strong> sudheendra.k@iiit.ac.in</p>
+              <p>
+                K. Sudheendra plays a pivotal role in managing the day-to-day operations of the Division of Flexible Learning. He ensures the implementation of strategic initiatives and maintains high standards of academic and operational excellence across all programs under DFL.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </section><!-- End Certificate Programmes Section -->
+    </section><!-- End Team Section -->
 
   </main><!-- End #main -->
 

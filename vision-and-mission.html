@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - Green Bootstrap Template</title>
+  <title>Vision & Mission - Division of Flexible Learning</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -14,7 +14,7 @@
   <link href="assets/img/dfl_logo/logo-png.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -27,26 +27,78 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <style>
+    .vision-mission-section {
+      background: #f8f9fa;
+      padding: 60px 0;
+    }
 
+    .section-title h2 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      color: #333;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .vision, .mission {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 40px;
+    }
+
+    .vision h2, .mission h2 {
+      font-size: 28px;
+      font-weight: 600;
+      color: #007bff;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .vision p, .mission ul {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    .mission ul {
+  list-style: none; /* Remove default bullet points */
+  padding-left: 0;
+}
+
+.mission ul li {
+  position: relative;
+  padding-left: 25px; /* Space for the arrow */
+  margin-bottom: 10px;
+}
+
+.mission ul li:before {
+  content: "\279C"; /* Bold arrow (➜) */
+  font-size: 24px; /* Adjust size as needed */
+  font-weight: bold;
+  color: #007bff; /* Adjust color */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+x
+
+
+    .page-update {
+      text-align: center;
+      font-style: italic;
+      color: #888;
+      margin-top: 20px;
+    }
+
+  </style>
 </head>
 
 <body>
-
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
-        <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
-      </div>
-      <div class="social-links d-none d-md-block">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-    </div>
-  </section>
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
@@ -59,39 +111,24 @@
     </div>
     
     <div class="d-flex align-items-center justify-content-between w-100">
-      <!--h1 class="logo me-auto"><a href="index.html">DFL Logo</a></h1-->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       <a href="index.html"><img src="assets/img/dfl_logo/logo-png-side.png" class="dfl-logo"></a>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <!--li><a class="nav-link scrollto" href="#about">About Us</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li-->
           <li class="dropdown active"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/vision-and-mission">Vision and Mission</a></li>
-              <li><a href="/leadership">Leadership</a></li>
-              <li><a href="/director-portfolio">Director (E-Learning)</a></li>
+              <li><a href="vision-and-mission.html">Vision and Mission</a></li>
+              <li><a href="leadership.html">Leadership</a></li>
+              <li><a href="director-portfolio.html">Director (E-Learning)</a></li>
               <li class="dropdown">
-                <a href="#"
-                  ><span>Accreditations</span>
-                  <i class="bi bi-chevron-right"></i
-                ></a>
+                <a href="#"><span>Accreditations</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="/assets/pdfs/Category-1.pdf">Category-I</a></li>
                   <li><a href="/assets/pdfs/NAAC-Certificate.pdf">NAAC</a></li>
-                  <li>
-                    <a href="/assets/pdfs/NIRF-Certificates/NIRF-2023.pdf"
-                      >NIRF Certificate</a
-                    >
-                  </li>
+                  <li><a href="/assets/pdfs/NIRF-Certificates/NIRF-2023.pdf">NIRF Certificate</a></li>
                 </ul>
               </li>
               <li><a href="/infrastructure">Infrastructure</a></li>
-              <!-- <li><a href="/organogram">Organogram</a></li> -->
               <li><a href="/privacy-policy">Privacy Policy</a></li>
               <li><a href="/blog">Blog</a></li>
               <li><a href="contactUs.html">Contact Information</a></li>
@@ -101,103 +138,20 @@
             <ul>
               <li><a href="#">Prospectus 2023-2024</a></li>
               <li><a href="#">Admission Process</a></li>
-              <li class="dropdown"><a href="#"><span>PG</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">eMSIT</a></li>
-                  <li><a href="#">Fees Structure</a></li>
-                </ul>
-              </li>
+              <li><a href="certificate_programmes.html">Certificate Programs</a></li>
+              <li><a href="#">Diploma Programs</a></li>
+              <li><a href="#">Degree Programs</a></li>
               <li><a href="#">FAQ</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Statutory Body</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li class="dropdown"><a href="#"><span>AICTE Approvals</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">AICTE Approval 2024-25</a></li>
-                  <li><a href="#">AICTE Approval 2023-24</a></li>
-                  <li><a href="#">AICTE Approval 2022-23</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>UGC Approvals</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">UGC Approval 2023-24</a></li>
-                  <li><a href="#">UGC Approval 2022-23</a></li>
-                </ul>
-                </li>
-              <li><a href="/assets/docs/UGC IIITH Application Form.pdf" target="_blank">Application to UGC DEB <br>for Online programmes</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#"><span>CIQA</span><i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/about-ciqa">About CIQA</a></li>
-              <li><a href="/ciqa-objectives">CIQA Objectives</a></li>
-              <li><a href="/handbooks">Handbooks</a></li>
-              <li class="dropdown"><a href="#"><span>Internal Audit Reports</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Internal Quality <br>Assurance  2023-2024</a></li>
-                  <li><a href="#">Internal Quality <br>Assurance  2022-2023</a></li>
-                </ul>
-                </li>
-              <li><a href="/academic-processes">Academic Processes</a></li>
-              <li>
-                <a href="/assets/pdfs/strategy-plan.pdf">Strategy Plan</a>
-              </li>
-              <li>
-                <a href="/assets/pdfs/Staff-Details.pdf">Staff Details</a>
-              </li>
-
-              <!--<li><a href="ciqa-composition">CIQA Composition</a></li>-->
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#"
-              ><span>Grievance Redressal</span>
-              <i class="bi bi-chevron-down"></i
-            ></a>
-            <ul>
-              <li>
-                <a href="#"
-                  >Grievance Redressal Committee</a
-                >
-              </li>
-              <li>
-                <a href="#"
-                  >Grievance Redressal Policy</a
-                >
-              </li>
-              <li>
-                <a href="#"
-                  >Grievance Redressal Form</a
-                >
-              </li>
-            </ul>
-          </li>
-          <!--li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li-->
           <li><a class="nav-link scrollto" href="contactUs.html">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar-->
+      </nav><!-- .navbar -->
     </div>
     </div>
   </header><!-- End Header -->
+
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -215,32 +169,29 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!--section class="inner-page">
+    <section class="vision-mission-section">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
-      </div>
-    </section-->
+        <div class="vision">
+          <h2>Vision</h2>
+          <p>To be a global leader in flexible and accessible online education, empowering learners to achieve their full potential by offering high-quality, innovative, and technology-driven learning experiences that cater to the evolving needs of society and the digital workforce.</p>
+        </div>
 
-    <section id="vision-mission" class="container my-1">
-      <div class="vision mb-4">
-        <h2>Vision</h2>
-        <p>To be an eminent research and teaching institution dedicated towards the advancement of Information and Communication Technologies (ICTs) and their use in various domains to produce high quality manpower, research, and technologies that make an impact on the society.</p>
-      </div>
-      <div class="mission mb-4">
-        <h2>Mission</h2>
-        <ul>
-          <li>To promote quality research in fundamental and applied areas leading to sustainable technologies, solutions, and products.</li>
-          <li>To provide the right blend of foundational and forward-looking research-based innovative curriculum through the practice-theory-practice model.</li>
-          <li>To produce graduates who are competent in their profession, creative in solving real-world problems, and exhibit professional ethics with a caring attitude towards the society.</li>
-        </ul>
-      </div>
-      <div class="page-update">
-        <p><em>Page last updated on October, 2022</em></p>
+        <div class="mission">
+          <h2>Mission</h2>
+          <ul>
+            <li>Deliver Excellence in Online Education: Provide world-class online education programs that are designed to foster lifelong learning, skill development, and career advancement.</li>
+            <li>Innovate with Technology: Integrate cutting-edge technology into the learning process to create engaging, personalized, and practical learning environments.</li>
+            <li>Promote Inclusivity and Accessibility: Ensure that educational opportunities are accessible to all learners by creating flexible learning pathways tailored to individual needs.</li>
+            <li>Foster Industry and Academic Partnerships: Collaborate with academic institutions and industry partners to ensure programs align with current industry demands and future career opportunities.</li>
+            <li>Uphold Academic Integrity and Quality: Ensure that all programs maintain high academic standards and provide rigorous, up-to-date content.</li>
+          </ul>
+        </div>
+
+        <div class="page-update">
+          <p><em>Page last updated on October, 2022</em></p>
+        </div>
       </div>
     </section>
-    
 
   </main><!-- End #main -->
 
